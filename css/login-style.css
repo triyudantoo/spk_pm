@@ -1,0 +1,60 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	/* background: url("../img/bekgron.png") no-repeat; */
+}
+
+.login-box{
+	width: 300px;
+	position: absolute;
+	top: 55%;
+	left: 20%;
+	transform: translate(-50%, -50%);
+	color: white;
+}
+
+.login-box h1{
+	float: left;
+	font-size: 40px;
+	color: #282828;
+	/*border-bottom: 6px solid #4caf50;*/
+	border-bottom: 6px solid #3465a4;
+	margin-bottom: 50px;
+	padding: 13px 0;
+}
+
+.textbox{
+	width: 100%;
+	overflow: hidden;
+	font-size: 20px;
+	padding: 8px 0;
+	margin: 8px 0;
+	border-bottom: 1px solid #282828;
+}
+
+.textbox input {
+	height: 40px;
+	width : 300px;
+	background: none;
+	font-size: 16px;
+	border: none;
+	margin-bottom: 0px;
+	border-radius: 4px;
+	background-color: #fff;
+	padding-left: 40px;
+
+}
+
+.btn {
+	padding: 10px 30px;
+	margin-left: 150px;
+	margin-top: 10px;
+	cursor: pointer;
+	color: #fff;
+	border-radius: 4px;
+	border: none;
+	background-color: #2F5A78;
+	/*background-color: rgba(112, 100, 134, 1.0);*/
+	margin-bottom: 20px;
+}
